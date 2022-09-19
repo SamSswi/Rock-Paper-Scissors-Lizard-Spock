@@ -7,3 +7,9 @@ h1 {
     letter-spacing: 4px;
     text-align: center;
 }
+
+.game-area {
+    margin: 20px 12.5%;
+    padding: 20px;
+}
+
