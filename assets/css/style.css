@@ -13,3 +13,25 @@ h1 {
     padding: 20px;
 }
 
+.buttons{
+    background-color: yellowgreen;
+    width: 19%;
+    height: 400px;
+    display: inline-block;
+}
+
+.buttons > button {
+    margin: 10px 10%;
+    padding: 20px 10px;
+    width: 80%;
+    background-color: blueviolet;
+    float: left;
+    clear: left;
+}
+
+.choices {
+    background-color: brown;
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+}
