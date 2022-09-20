@@ -42,11 +42,26 @@ h1 {
     margin: 0px 27.5%;
 }
 
-/* #score-area > div {
+#score-area > div {
     display: inline-block;
 }
 
 #player-name {
     text-align: left;
-    width: 40%;
-} */
+    width: 39%;
+}
+
+#player-score {
+    text-align: center;
+    width: 10%;
+}
+
+#ai-score {
+    text-align: center;
+    width: 10%;
+}
+
+#ai {
+    text-align: right;
+    width: 39%;
+}
