@@ -10,7 +10,7 @@ h1 {
 
 .game-area {
     margin: 20px 12.5%;
-    padding: 20px;
+     padding: 20px; /*remove bottom padding */
 }
 
 .buttons{
@@ -34,4 +34,10 @@ h1 {
     display: inline-block;
     width: 30%;
     height: 400px;
+}
+
+#score-area {
+    background-color: yellow;
+    width: 44%;
+    margin: 0px 27.5%;
 }
