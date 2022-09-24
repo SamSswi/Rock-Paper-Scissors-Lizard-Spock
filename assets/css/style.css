@@ -11,6 +11,7 @@ h1 {
 .game-area {
     margin: 20px 12.5% 0px;
     padding: 20px 20px 0px;
+    /* background-color: #cec7bf; */
 }
 
 .buttons{
@@ -82,9 +83,12 @@ h1 {
 }
 
 #score-area {
-    background-color: yellow;
-    width: 44%;
-    margin: 0px 27.5%;
+    /* background-color: yellow; */
+    width: 43.5%;
+    margin: 0px 27.75%;
+    border: 8px solid #ff9154;
+    background-color: #ffdda4;
+    border-radius: 10px;
 }
 
 #score-area > div {
