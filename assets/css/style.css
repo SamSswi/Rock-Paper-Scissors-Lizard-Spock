@@ -23,9 +23,9 @@ h1 {
 .buttons > button {
     font-size: 30px;
     /* font-weight: bold; */
-    margin: 3px 10%;
+    margin: 3px 5%;
     padding: 18px 10px;
-    width: 80%;
+    width: 90%;
     /* background-color: blueviolet; */
     float: left;
     clear: left;
