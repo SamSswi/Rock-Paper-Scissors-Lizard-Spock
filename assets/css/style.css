@@ -9,8 +9,8 @@ h1 {
 }
 
 .game-area {
-    margin: 20px 12.5%;
-     padding: 20px; /*remove bottom padding */
+    margin: 20px 12.5% 0px;
+     padding: 20px 20px 0px;
 }
 
 .buttons{
