@@ -16,7 +16,7 @@ h1 {
 .buttons{
     background-color: yellowgreen;
     width: 19%;
-    height: 400px;
+    height: 400px; /* 416px */
     display: inline-block;
 }
 
@@ -36,8 +36,10 @@ h1 {
 .choices {
     background-color: brown;
     display: inline-block;
-    width: 30%;
+    width: 29%;
     height: 400px;
+    border: 8px #000 solid;
+    border-radius: 10px;
 }
 
 #score-area {
