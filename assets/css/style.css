@@ -16,7 +16,7 @@ h1 {
 .buttons{
     background-color: yellowgreen;
     width: 19%;
-    height: 400px; /* 416px */
+    height: 420px;
     display: inline-block;
 }
 
@@ -24,7 +24,7 @@ h1 {
     font-size: 30px;
     /* font-weight: bold; */
     margin: 3px 5%;
-    padding: 18px 10px;
+    padding: 20px 10px;
     width: 90%;
     /* background-color: blueviolet; */
     float: left;
@@ -37,7 +37,7 @@ h1 {
     background-color: brown;
     display: inline-block;
     width: 29%;
-    height: 400px;
+    height: 404px;
     border: 8px #000 solid;
     border-radius: 10px;
 }
