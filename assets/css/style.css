@@ -48,6 +48,11 @@ h1 {
     color: #fff;
 }
 
+#lizard-btn {
+    background-color: #227600;
+    color: #fff;
+}
+
 .choices {
     background-color: brown;
     display: inline-block;
