@@ -64,12 +64,21 @@ h1 {
 }
 
 .choices {
-    background-color: brown;
+    /* background-color: brown; */
     display: inline-block;
     width: 29%;
     height: 404px;
     border: 8px #000 solid;
     border-radius: 10px;
+}
+
+#player-choice {
+    /* background-color: #ffe5b4; */
+    border-color: #374f6b;
+}
+
+#ai-choice {
+    border-color: #bd1816;
 }
 
 #score-area {
