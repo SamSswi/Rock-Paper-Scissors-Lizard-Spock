@@ -10,11 +10,11 @@ h1 {
 
 .game-area {
     margin: 20px 12.5% 0px;
-     padding: 20px 20px 0px;
+    padding: 20px 20px 0px;
 }
 
 .buttons{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     width: 19%;
     height: 420px;
     display: inline-block;
@@ -31,6 +31,11 @@ h1 {
     clear: left;
     border: 2px #000 solid;
     border-radius: 10px;
+}
+
+#rock-btn {
+    background-color: #574e43;
+    color: #fff;
 }
 
 .choices {
