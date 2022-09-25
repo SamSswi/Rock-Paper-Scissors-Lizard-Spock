@@ -37,31 +37,38 @@ h1 {
 #rock-btn {
     background-color: #574e43;
     color: #fff;
+    border-color: #574e43;
 }
 
 #paper-btn {
     background-color: #ffa300;
     color: #fff;
+    border-color: #ffa300;
 }
 
 #scissors-btn {
     background-color: #d80000;
     color: #fff;
+    border-color: #d80000;
 }
 
 #lizard-btn {
     background-color: #227600;
     color: #fff;
+    border-color: #227600;
 }
 
 #spock-btn {
     background-color: #1167b1;
     color: #fff;
+    border-color: #1167b1;
 }
 
 #help-buttons > button {
     background-color: #6d4720;
     color: #fff;
+    border-color: #6d4720;
+
 }
 
 .choices {
