@@ -232,3 +232,13 @@ h1 {
 
 }
 
+@media screen and (max-width: 900px) {
+    .game-area {
+        margin: 20px 2% 10px;
+    }
+
+    #score-area {
+        margin: 0px 3%;
+        width: 92%;
+    }
+}
