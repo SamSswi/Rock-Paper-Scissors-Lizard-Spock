@@ -93,24 +93,52 @@ h1 {
 
 #score-area > div {
     display: inline-block;
+    vertical-align: top;
+
 }
 
 #player-name {
-    text-align: left;
-    width: 39%;
+    /* background-color: #1167b1; */
+    width: 39.25%;
+}
+
+#player-name > h2 {
+    text-align: center;
+    font-size: 40px;
+    overflow: hidden;
+    margin: 10px 0px;
 }
 
 #player-score {
-    text-align: center;
+    /* background-color: #a4a7aa; */
     width: 10%;
+}
+
+#player-score > h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0px;
 }
 
 #ai-score {
-    text-align: center;
+    /* background-color: #7c135d; */
     width: 10%;
 }
 
+#ai-score > h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
 #ai {
-    text-align: right;
-    width: 39%;
+    /* background-color: #1db83f; */
+    width: 39.25%;
+}
+
+#ai > h2  {
+    text-align: center;
+    font-size: 40px;
+    overflow: hidden;
+    margin: 10px 0px; 
 }
