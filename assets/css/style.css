@@ -178,3 +178,14 @@ h1 {
     margin: 10px 0px; 
 }
 
+@media screen and (max-width: 1500px) {
+    .game-area {
+        margin: 20px 2.5% 0px;
+    }
+    
+    #score-area {
+        margin: 0px 21.5%;
+        width: 55%;
+    }
+    
+    }
