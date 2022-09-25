@@ -39,11 +39,20 @@ h1 {
     color: #fff;
     border-color: #574e43;
 }
+#rock-btn:hover {
+    background-color: #f2f2f2;
+    color: #574e43;
+}
 
 #paper-btn {
     background-color: #ffa300;
     color: #fff;
     border-color: #ffa300;
+}
+
+#paper-btn:hover {
+    background-color: #f2f2f2;
+    color: #ffa300;
 }
 
 #scissors-btn {
@@ -52,10 +61,20 @@ h1 {
     border-color: #d80000;
 }
 
+#scissors-btn:hover {
+    background-color: #f2f2f2;
+    color: #d80000;
+}
+
 #lizard-btn {
     background-color: #227600;
     color: #fff;
     border-color: #227600;
+}
+
+#lizard-btn:hover {
+    background-color: #f2f2f2;
+    color: #227600;
 }
 
 #spock-btn {
@@ -64,11 +83,20 @@ h1 {
     border-color: #1167b1;
 }
 
+#spock-btn:hover {
+    background-color: #f2f2f2;
+    color: #1167b1;
+}
+
 #help-buttons > button {
     background-color: #6d4720;
     color: #fff;
     border-color: #6d4720;
+}
 
+#help-buttons>button:hover {
+    background-color: #f2f2f2;
+    color: #6d4720;
 }
 
 .choices {
