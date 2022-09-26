@@ -40,16 +40,16 @@ function paper(aiChoice) {
     }
 }
 
-// function scissors(aiChoice) {
-//     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
-//     if(aiChoice === 'scissors') {
-//         return 'draw'
-//     } else if (aiChoice === 'lizard' || aiChoice === 'paper') {
-//         return 'win'
-//     } else if (aiChoice === 'rock' || aiChoice === 'spock') {
-//         return 'loss'
-//     }
-// }
+function scissors(aiChoice) {
+    document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
+    if(aiChoice === 'scissors') {
+        return 'draw'
+    } else if (aiChoice === 'lizard' || aiChoice === 'paper') {
+        return 'win'
+    } else if (aiChoice === 'rock' || aiChoice === 'spock') {
+        return 'loss'
+    }
+}
 
 // function lizard(aiChoice) {
 //     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
