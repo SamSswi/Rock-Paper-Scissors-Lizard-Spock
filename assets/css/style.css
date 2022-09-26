@@ -274,11 +274,52 @@ h1 {
         border: 4px solid #ff9154;
         border-radius: 5px;
     }
-    
+
     #player-name {
         width: 37.25%;
     }
+
+    #score-area h2 {
+        margin: 1px;
+        font-size: 15px;
+    }
+
+    #score-area h3 {
+        font-size: 15px;
+        margin: 1px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .buttons {
+        height: 130px;
+    }
     
+    .buttons>button {
+        width: 30%;
+    }
+
+    #help-buttons {
+        height: 40px;
+    }
+
+    #help-buttons > button {
+        width: 48%;
+        margin-left: 1%;
+        height: 30px
+    }
+
+    .choices {
+        height: 130px;
+    }
+
+    #player-name {
+        width: 36.5%;
+    }
+
     #score-area h2 {
         margin: 1px;
         font-size: 15px;
