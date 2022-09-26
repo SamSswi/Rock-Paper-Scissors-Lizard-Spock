@@ -29,16 +29,16 @@ function rock(aiChoice) {
     }
 }
 
-// function paper(aiChoice) {
-//     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
-//     if(aiChoice === 'paper') {
-//         return 'draw'
-//     } else if (aiChoice === 'rock' || aiChoice === 'spock') {
-//         return 'win'
-//     } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
-//         return 'loss'
-//     }
-// }
+function paper(aiChoice) {
+    document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
+    if(aiChoice === 'paper') {
+        return 'draw'
+    } else if (aiChoice === 'rock' || aiChoice === 'spock') {
+        return 'win'
+    } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
+        return 'loss'
+    }
+}
 
 // function scissors(aiChoice) {
 //     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
