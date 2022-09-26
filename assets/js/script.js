@@ -18,16 +18,16 @@ function aiChoice(){
     }
 }
 
-// function rock(aiChoice) {
-//     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
-//     if(aiChoice === 'rock') {
-//         return 'draw'
-//     } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
-//         return 'win'
-//     } else if (aiChoice === 'paper' || aiChoice === 'spock') {
-//         return 'loss'
-//     }
-// }
+function rock(aiChoice) {
+    document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
+    if(aiChoice === 'rock') {
+        return 'draw'
+    } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
+        return 'win'
+    } else if (aiChoice === 'paper' || aiChoice === 'spock') {
+        return 'loss'
+    }
+}
 
 // function paper(aiChoice) {
 //     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
