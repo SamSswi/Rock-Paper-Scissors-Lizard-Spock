@@ -62,16 +62,16 @@ function lizard(aiChoice) {
     }
 }
 
-// function spock(aiChoice) {
-//     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
-//     if(aiChoice === 'spock') {
-//         return 'draw'
-//     } else if (aiChoice === 'scissors' || aiChoice === 'rock') {
-//         return 'win'
-//     } else if (aiChoice === 'paper' || aiChoice === 'lizard') {
-//         return 'loss'
-//     }
-// }
+function spock(aiChoice) {
+    document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
+    if(aiChoice === 'spock') {
+        return 'draw'
+    } else if (aiChoice === 'scissors' || aiChoice === 'rock') {
+        return 'win'
+    } else if (aiChoice === 'paper' || aiChoice === 'lizard') {
+        return 'loss'
+    }
+}
 
 
 // a = aiChoice()
