@@ -109,4 +109,4 @@ function spock(aiChoice) {
 
 // a = aiChoice()
 
-console.log(spock(aiChoice()))
+// console.log(spock(aiChoice()))
