@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.getElementsByTagName('button');
 
-    for (button of buttons) {
+    for (let button of buttons) {
     ////////////////////////////////////////////////////////////////    
         button.addEventListener('click', function() {
             if(this.getAttribute('data-type') === 'rock') {
