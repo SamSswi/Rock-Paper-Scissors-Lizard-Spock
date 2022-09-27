@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
     ////////////////////////////////////////////////////////////////    
         button.addEventListener('click', function() {
-            if(this.getAttribute('data-type') === 'rock') {
+            if(this.getAttribute('data-type') === 'new-game') {
+                document.getElementById('player-points').innerHTML = 0
+                document.getElementById('ai-points').innerHTML = 0
+            } else if(this.getAttribute('data-type') === 'rock') {
                 const ai = aiChoice()
                 const result = rock(ai)
                 scoreCalculation(result)               
