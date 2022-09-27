@@ -1,4 +1,35 @@
-document.addEventListener("DOMContentLoaded", function () {})
+
+////////////////////////////////////////////////from CI love maths
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.getElementsByTagName('button');
+
+    for (button of buttons) {
+    ////////////////////////////////////////////////////////////////    
+        button.addEventListener('click', function() {
+            if(this.getAttribute('data-type') === 'rock') {
+                const ai = aiChoice()
+                const result = rock(ai)
+
+                if(result === 'win') {
+                    let playerScore = parseInt(document.getElementById('player-points').textContent)
+                    ++ playerScore
+                    document.getElementById('player-points').innerHTML = playerScore
+                } else if (result === 'loss') {
+                    let aiScore = parseInt(document.getElementById('ai-points').textContent)
+                    ++ aiScore
+                    document.getElementById('ai-points').innerHTML = aiScore
+                } else if (result === 'draw') {
+                    let playerScore = parseInt(document.getElementById('player-points').textContent)
+                    ++ playerScore
+                    document.getElementById('player-points').innerHTML = playerScore
+                    let aiScore = parseInt(document.getElementById('ai-points').textContent)
+                    ++ aiScore
+                    document.getElementById('ai-points').innerHTML = aiScore
+                }
+            }
+        })
+    }
+})
 
 function aiChoice(){
     const choice = Math.floor(Math.random() * 5)
