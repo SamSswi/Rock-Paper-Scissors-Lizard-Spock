@@ -102,6 +102,7 @@ h1 {
 
 .choices {
     /* background-color: brown; */
+    vertical-align: top;
     display: inline-block;
     width: 29%;
     height: 404px;
