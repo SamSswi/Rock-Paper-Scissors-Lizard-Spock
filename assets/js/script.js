@@ -10,6 +10,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 const ai = aiChoice()
                 const result = rock(ai)
                 scoreCalculation(result)               
+            } else if(this.getAttribute('data-type') === 'paper') {
+                const ai = aiChoice()
+                const result = paper(ai)
+                scoreCalculation(result)               
+            } else if(this.getAttribute('data-type') === 'scissors') {
+                const ai = aiChoice()
+                const result = scissors(ai)
+                scoreCalculation(result)               
+            } else if(this.getAttribute('data-type') === 'lizard') {
+                const ai = aiChoice()
+                const result = lizard(ai)
+                scoreCalculation(result)               
+            } else if(this.getAttribute('data-type') === 'spock') {
+                const ai = aiChoice()
+                const result = spock(ai)
+                scoreCalculation(result)               
             }
         })
     }
