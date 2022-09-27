@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {})
+
 function aiChoice(){
     const choice = Math.floor(Math.random() * 5)
     if (choice === 0) {
@@ -76,4 +78,4 @@ function spock(aiChoice) {
 
 // a = aiChoice()
 
-// console.log(spock(a))
+console.log(spock(aiChoice()))
