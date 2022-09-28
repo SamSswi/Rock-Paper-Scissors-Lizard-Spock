@@ -113,10 +113,14 @@ h1 {
 #player-choice {
     /* background-color: #ffe5b4; */
     border-color: #374f6b;
+    font-size: 300px;
+    text-align: center;
 }
 
 #ai-choice {
     border-color: #bd1816;
+    font-size: 300px;
+    text-align: center;
 }
 
 #score-area {
