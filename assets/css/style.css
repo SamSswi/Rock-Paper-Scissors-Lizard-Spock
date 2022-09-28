@@ -18,6 +18,10 @@ h1 {
     font-size: larger;
 }
 
+#start-page {
+    visibility: visible;
+}
+
 #rules-section {
     visibility: hidden;
 }
