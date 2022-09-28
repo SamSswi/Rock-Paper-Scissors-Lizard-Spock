@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if(this.getAttribute('data-type') === 'start') {
                 newGame()
                 document.getElementById('start-page').style.visibility = 'hidden'
+                document.getElementById('difficulty-section').style.visibility = 'visible'
                 setPlayerName()
             } else if(this.getAttribute('data-type') === 'new-game') {
                 newGame()
