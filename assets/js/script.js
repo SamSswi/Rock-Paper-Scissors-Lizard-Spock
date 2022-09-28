@@ -1,70 +1,71 @@
-
 ////////////////////////////////////////////////from CI love maths
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.getElementsByTagName('button')
 
     for (let button of buttons) {
-    ////////////////////////////////////////////////////////////////    
-        button.addEventListener('click', function() {
-            
-            
-            if(this.getAttribute('data-type') === 'start') {
+        ////////////////////////////////////////////////////////////////    
+        button.addEventListener('click', function () {
+
+
+            if (this.getAttribute('data-type') === 'start') {
                 document.getElementById('start-page').style.visibility = 'hidden'
                 newGame()
                 setPlayerName()
-            } else if(this.getAttribute('data-type') === 'new-game') {
+            } else if (this.getAttribute('data-type') === 'new-game') {
                 newGame()
-            } else if(this.getAttribute('data-type') === 'rules') {
+            } else if (this.getAttribute('data-type') === 'rules') {
                 document.getElementById('rules-section').style.visibility = 'visible'
                 const closeButton = document.getElementsByClassName('close-button')
                 for (let a of closeButton) {
-                    a.addEventListener('click', function(){document.getElementById('rules-section').style.visibility = 'hidden'})
+                    a.addEventListener('click', function () {
+                        document.getElementById('rules-section').style.visibility = 'hidden'
+                    })
                 }
-            } else if(this.getAttribute('data-type') === 'rock') {
+            } else if (this.getAttribute('data-type') === 'rock') {
                 const ai = aiChoice()
                 const result = rock(ai)
-                scoreCalculation(result)               
-            } else if(this.getAttribute('data-type') === 'paper') {
+                scoreCalculation(result)
+            } else if (this.getAttribute('data-type') === 'paper') {
                 const ai = aiChoice()
                 const result = paper(ai)
-                scoreCalculation(result)               
-            } else if(this.getAttribute('data-type') === 'scissors') {
+                scoreCalculation(result)
+            } else if (this.getAttribute('data-type') === 'scissors') {
                 const ai = aiChoice()
                 const result = scissors(ai)
-                scoreCalculation(result)               
-            } else if(this.getAttribute('data-type') === 'lizard') {
+                scoreCalculation(result)
+            } else if (this.getAttribute('data-type') === 'lizard') {
                 const ai = aiChoice()
                 const result = lizard(ai)
-                scoreCalculation(result)               
-            } else if(this.getAttribute('data-type') === 'spock') {
+                scoreCalculation(result)
+            } else if (this.getAttribute('data-type') === 'spock') {
                 const ai = aiChoice()
                 const result = spock(ai)
-                scoreCalculation(result)               
+                scoreCalculation(result)
             }
         })
     }
 })
 
-function scoreCalculation (result) {
-    if(result === 'win') {
+function scoreCalculation(result) {
+    if (result === 'win') {
         let playerScore = parseInt(document.getElementById('player-points').textContent)
-        ++ playerScore
+            ++playerScore
         document.getElementById('player-points').innerHTML = playerScore
     } else if (result === 'loss') {
         let aiScore = parseInt(document.getElementById('ai-points').textContent)
-        ++ aiScore
+            ++aiScore
         document.getElementById('ai-points').innerHTML = aiScore
     } else if (result === 'draw') {
         let playerScore = parseInt(document.getElementById('player-points').textContent)
-        ++ playerScore
+            ++playerScore
         document.getElementById('player-points').innerHTML = playerScore
         let aiScore = parseInt(document.getElementById('ai-points').textContent)
-        ++ aiScore
+            ++aiScore
         document.getElementById('ai-points').innerHTML = aiScore
     }
 }
 
-function aiChoice(){
+function aiChoice() {
     const choice = Math.floor(Math.random() * 5)
     if (choice === 0) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
@@ -89,22 +90,36 @@ function aiChoice(){
     }
 }
 
-function rock(aiChoice) {
+function rock(choice, difficulty) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
     document.getElementById('player-choice').style.color = '#574e43'
-    if(aiChoice === 'rock') {
-        return 'draw'
-    } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
-        return 'win'
-    } else if (aiChoice === 'paper' || aiChoice === 'spock') {
-        return 'loss'
+    //     if(aiChoice === 'rock') {
+    //         return 'draw'
+    //     } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
+    //         return 'win'
+    //     } else if (aiChoice === 'paper' || aiChoice === 'spock') {
+    //         return 'loss'
+    //     }
+    let opponentMove = choice
+
+    if (difficulty === 'easy') {
+        while (opponentMove === 'rock' || opponentMove === 'paper') {
+            opponentMove = aiChoice()
+            console.log(opponentMove)
+        }
+
+        if (aiChoice === 'scissors' || aiChoice === 'lizard') {
+            return 'win'
+        } else if (aiChoice === 'spock') {
+            return 'loss'
+        }
     }
 }
 
 function paper(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
     document.getElementById('player-choice').style.color = '#ffa300'
-    if(aiChoice === 'paper') {
+    if (aiChoice === 'paper') {
         return 'draw'
     } else if (aiChoice === 'rock' || aiChoice === 'spock') {
         return 'win'
@@ -116,7 +131,7 @@ function paper(aiChoice) {
 function scissors(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
     document.getElementById('player-choice').style.color = '#d80000'
-    if(aiChoice === 'scissors') {
+    if (aiChoice === 'scissors') {
         return 'draw'
     } else if (aiChoice === 'lizard' || aiChoice === 'paper') {
         return 'win'
@@ -128,7 +143,7 @@ function scissors(aiChoice) {
 function lizard(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
     document.getElementById('player-choice').style.color = '#227600'
-    if(aiChoice === 'lizard') {
+    if (aiChoice === 'lizard') {
         return 'draw'
     } else if (aiChoice === 'spock' || aiChoice === 'paper') {
         return 'win'
@@ -140,7 +155,7 @@ function lizard(aiChoice) {
 function spock(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
     document.getElementById('player-choice').style.color = '#1167b1'
-    if(aiChoice === 'spock') {
+    if (aiChoice === 'spock') {
         return 'draw'
     } else if (aiChoice === 'scissors' || aiChoice === 'rock') {
         return 'win'
@@ -161,6 +176,5 @@ function newGame() {
     document.getElementById('player-choice').innerHTML = ''
     document.getElementById('ai-choice').innerHTML = ''
 }
-// a = aiChoice()
-
-// console.log(spock(aiChoice()))
+let a = aiChoice()
+rock(a, 'easy')
