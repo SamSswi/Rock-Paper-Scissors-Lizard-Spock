@@ -9,17 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
             
             
             if(this.getAttribute('data-type') === 'start') {
-                document.getElementById('player-points').innerHTML = 0
-                document.getElementById('ai-points').innerHTML = 0
-                document.getElementById('player-choice').innerHTML = ''
-                document.getElementById('ai-choice').innerHTML = ''
                 document.getElementById('start-page').style.visibility = 'hidden'
                 setPlayerName()
             } else if(this.getAttribute('data-type') === 'new-game') {
-                document.getElementById('player-points').innerHTML = 0
-                document.getElementById('ai-points').innerHTML = 0
-                document.getElementById('player-choice').innerHTML = ''
-                document.getElementById('ai-choice').innerHTML = ''
                 
             } else if(this.getAttribute('data-type') === 'rules') {
                 document.getElementById('rules-section').style.visibility = 'visible'
@@ -161,6 +153,12 @@ function setPlayerName() {
     document.getElementById('player-name').innerHTML = `<h2>${playerName}</h2>`
 }
 
+function newGame() {
+    document.getElementById('player-points').innerHTML = 0
+    document.getElementById('ai-points').innerHTML = 0
+    document.getElementById('player-choice').innerHTML = ''
+    document.getElementById('ai-choice').innerHTML = ''
+}
 // a = aiChoice()
 
 // console.log(spock(aiChoice()))
