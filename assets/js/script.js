@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 newGame()
                 setPlayerName()
             } else if (this.getAttribute('data-type') === 'easy') {
-                document.getElementById('difficulty-section').style.visibility = 'visible'
+                document.getElementById('difficulty-section').style.visibility = 'hidden'
                 difficulty = 'easy'
             } else if (this.getAttribute('data-type') === 'new-game') {
                 newGame()
@@ -93,6 +93,7 @@ function aiChoice() {
         return 'spock'
     }
 }
+
 
 function rock(choice, difficulty) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
