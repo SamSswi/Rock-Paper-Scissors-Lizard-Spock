@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 newGame()
                 setPlayerName()
             } else if (this.getAttribute('data-type') === 'easy') {
+                document.getElementById('difficulty-section').style.visibility = 'visible'
                 difficulty = 'easy'
             } else if (this.getAttribute('data-type') === 'new-game') {
                 newGame()
