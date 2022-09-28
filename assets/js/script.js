@@ -9,10 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
             
             
             if(this.getAttribute('data-type') === 'start') {
+                newGame()
                 document.getElementById('start-page').style.visibility = 'hidden'
                 setPlayerName()
             } else if(this.getAttribute('data-type') === 'new-game') {
-                
+                newGame()
             } else if(this.getAttribute('data-type') === 'rules') {
                 document.getElementById('rules-section').style.visibility = 'visible'
                 const closeButton = document.getElementsByClassName('close-button')
