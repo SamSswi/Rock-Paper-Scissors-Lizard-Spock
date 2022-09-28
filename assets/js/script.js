@@ -147,6 +147,10 @@ function spock(aiChoice) {
     }
 }
 
+function setPlayerName() {
+    const playerName = document.getElementById('submitted-name').value
+    document.getElementById('player-name').innerHTML = `<h2>${playerName}</h2>`
+}
 
 // a = aiChoice()
 
