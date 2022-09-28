@@ -18,7 +18,9 @@ h1 {
     font-size: larger;
 }
 
-
+#rules-section {
+    visibility: hidden;
+}
 
 .game-area {
     margin: 20px 12.5% 0px;
