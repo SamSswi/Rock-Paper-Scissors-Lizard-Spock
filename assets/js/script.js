@@ -78,8 +78,6 @@ function aiChoice() {
     } else if (choice === 2) {
         return 'scissors'
     } else if (choice === 3) {
-        document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
-        document.getElementById('ai-choice').style.color = '#227600'
         return 'lizard'
     } else if (choice === 4) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
@@ -98,16 +96,14 @@ function aiDisplayPaper() {
     document.getElementById('ai-choice').style.color = '#ffa300'
 }
 
-
-
 function aiDisplayScissors() {
     document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
     document.getElementById('ai-choice').style.color = '#d80000'
 }
 
-function aiDisplayRock() {
-    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
-    document.getElementById('ai-choice').style.color = '#574e43'
+function aiDisplayLizard() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
+    document.getElementById('ai-choice').style.color = '#227600'
 }
 
 function aiDisplayRock() {
