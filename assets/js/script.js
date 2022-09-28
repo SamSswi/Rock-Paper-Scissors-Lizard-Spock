@@ -1,7 +1,7 @@
 
 ////////////////////////////////////////////////from CI love maths
 document.addEventListener("DOMContentLoaded", function () {
-    const buttons = document.getElementsByTagName('button');
+    const buttons = document.getElementsByTagName('button')
 
     for (let button of buttons) {
     ////////////////////////////////////////////////////////////////    
@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if(this.getAttribute('data-type') === 'new-game') {
                 document.getElementById('player-points').innerHTML = 0
                 document.getElementById('ai-points').innerHTML = 0
+                document.getElementById('player-choice').innerHTML = ''
+                document.getElementById('ai-choice').innerHTML = ''
+                
             } else if(this.getAttribute('data-type') === 'rock') {
                 const ai = aiChoice()
                 const result = rock(ai)
