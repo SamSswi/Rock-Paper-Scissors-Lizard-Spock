@@ -9,9 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
             
             
             if(this.getAttribute('data-type') === 'start') {
-                newGame()
                 document.getElementById('start-page').style.visibility = 'hidden'
-                document.getElementById('difficulty-section').style.visibility = 'visible'
+                newGame()
                 setPlayerName()
             } else if(this.getAttribute('data-type') === 'new-game') {
                 newGame()
@@ -156,6 +155,7 @@ function setPlayerName() {
 }
 
 function newGame() {
+    document.getElementById('difficulty-section').style.visibility = 'visible'
     document.getElementById('player-points').innerHTML = 0
     document.getElementById('ai-points').innerHTML = 0
     document.getElementById('player-choice').innerHTML = ''
