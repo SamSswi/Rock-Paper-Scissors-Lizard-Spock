@@ -72,8 +72,6 @@ function scoreCalculation(result) {
 function aiChoice() {
     const choice = Math.floor(Math.random() * 5)
     if (choice === 0) {
-        document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
-        document.getElementById('ai-choice').style.color = '#574e43'
         return 'rock';
     } else if (choice === 1) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
@@ -94,6 +92,10 @@ function aiChoice() {
     }
 }
 
+function aiDisplayRock() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
+    document.getElementById('ai-choice').style.color = '#574e43'
+}
 
 function rock(choice, difficulty) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
