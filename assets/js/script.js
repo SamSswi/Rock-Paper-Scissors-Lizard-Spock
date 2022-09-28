@@ -6,7 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
     ////////////////////////////////////////////////////////////////    
         button.addEventListener('click', function() {
-            if(this.getAttribute('data-type') === 'new-game') {
+            
+            
+            if(this.getAttribute('data-type') === 'start') {
+                document.getElementById('player-points').innerHTML = 0
+                document.getElementById('ai-points').innerHTML = 0
+                document.getElementById('player-choice').innerHTML = ''
+                document.getElementById('ai-choice').innerHTML = ''
+                document.getElementById('rules-section').style.visibility = 'hidden'
+                setPlayerName()
+            } else if(this.getAttribute('data-type') === 'new-game') {
                 document.getElementById('player-points').innerHTML = 0
                 document.getElementById('ai-points').innerHTML = 0
                 document.getElementById('player-choice').innerHTML = ''
