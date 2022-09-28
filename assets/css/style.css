@@ -222,6 +222,14 @@ h1 {
         vertical-align: top;
     }
 
+    #player-choice {
+        font-size: 200px;
+    }
+
+    #ai-choice {
+        font-size: 200px;
+    }
+
     #score-area {
         margin: 0px 11%;
         width: 76%;
@@ -239,9 +247,9 @@ h1 {
 
 @media screen and (max-width: 900px) {
 
-        h1 {
-            margin-bottom: 10px;
-        }    
+    h1 {
+        margin-bottom: 10px;
+    }
 
     .game-area {
         margin: 0px 2% 10px;
@@ -250,6 +258,14 @@ h1 {
     #score-area {
         margin: 0px 3%;
         width: 92%;
+    }
+
+    #player-choice {
+        font-size: 150px;
+    }
+
+    #ai-choice {
+        font-size: 150px;
     }
 }
 
@@ -316,7 +332,7 @@ h1 {
     .buttons {
         height: 130px;
     }
-    
+
     .buttons>button {
         width: 30%;
     }
@@ -325,7 +341,7 @@ h1 {
         height: 40px;
     }
 
-    #help-buttons > button {
+    #help-buttons>button {
         width: 48%;
         margin-left: 1%;
         height: 30px
