@@ -5,12 +5,15 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         ////////////////////////////////////////////////////////////////    
         button.addEventListener('click', function () {
+            let difficulty = ''
 
 
             if (this.getAttribute('data-type') === 'start') {
                 document.getElementById('start-page').style.visibility = 'hidden'
                 newGame()
                 setPlayerName()
+            } else if (this.getAttribute('data-type') === 'easy') {
+                difficulty = 'easy'
             } else if (this.getAttribute('data-type') === 'new-game') {
                 newGame()
             } else if (this.getAttribute('data-type') === 'rules') {
@@ -23,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             } else if (this.getAttribute('data-type') === 'rock') {
                 const ai = aiChoice()
-                const result = rock(ai)
+                const result = rock(ai,difficulty)
                 scoreCalculation(result)
             } else if (this.getAttribute('data-type') === 'paper') {
                 const ai = aiChoice()
