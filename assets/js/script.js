@@ -97,6 +97,26 @@ function aiDisplayRock() {
     document.getElementById('ai-choice').style.color = '#574e43'
 }
 
+function aiDisplayPaper() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
+    document.getElementById('ai-choice').style.color = '#ffa300'
+}
+
+function aiDisplayRock() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
+    document.getElementById('ai-choice').style.color = '#574e43'
+}
+
+function aiDisplayRock() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
+    document.getElementById('ai-choice').style.color = '#574e43'
+}
+
+function aiDisplayRock() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
+    document.getElementById('ai-choice').style.color = '#574e43'
+}
+
 function rock(choice, difficulty) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
     document.getElementById('player-choice').style.color = '#574e43'
