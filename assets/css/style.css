@@ -183,6 +183,14 @@ h1 {
     margin: 10px 0px;
 }
 
+#rules-section {
+    position: absolute;
+    opacity: 0.95;
+    background-color: #fff;
+    height: 700px;
+    width: 100%;
+}
+
 @media screen and (max-width: 1600px) {
     .game-area {
         margin: 20px 2.5% 0px;
