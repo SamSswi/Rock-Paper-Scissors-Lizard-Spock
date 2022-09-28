@@ -83,6 +83,7 @@ function aiChoice(){
 
 function rock(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
+    document.getElementById('player-choice').style.color = '#574e43'
     if(aiChoice === 'rock') {
         return 'draw'
     } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
@@ -94,6 +95,7 @@ function rock(aiChoice) {
 
 function paper(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
+    document.getElementById('player-choice').style.color = '#ffa300'
     if(aiChoice === 'paper') {
         return 'draw'
     } else if (aiChoice === 'rock' || aiChoice === 'spock') {
@@ -105,6 +107,7 @@ function paper(aiChoice) {
 
 function scissors(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
+    document.getElementById('player-choice').style.color = '#d80000'
     if(aiChoice === 'scissors') {
         return 'draw'
     } else if (aiChoice === 'lizard' || aiChoice === 'paper') {
@@ -116,6 +119,7 @@ function scissors(aiChoice) {
 
 function lizard(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
+    document.getElementById('player-choice').style.color = '#227600'
     if(aiChoice === 'lizard') {
         return 'draw'
     } else if (aiChoice === 'spock' || aiChoice === 'paper') {
@@ -127,6 +131,7 @@ function lizard(aiChoice) {
 
 function spock(aiChoice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
+    document.getElementById('player-choice').style.color = '#1167b1'
     if(aiChoice === 'spock') {
         return 'draw'
     } else if (aiChoice === 'scissors' || aiChoice === 'rock') {
