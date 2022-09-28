@@ -361,6 +361,14 @@ h1 {
         height: 130px;
     }
 
+    #player-choice {
+        font-size: 100px;
+    }
+
+    #ai-choice {
+        font-size: 100px;
+    }
+
     #player-name {
         width: 36.5%;
     }
