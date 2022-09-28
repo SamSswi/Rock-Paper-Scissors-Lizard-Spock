@@ -80,8 +80,6 @@ function aiChoice() {
     } else if (choice === 3) {
         return 'lizard'
     } else if (choice === 4) {
-        document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
-        document.getElementById('ai-choice').style.color = '#1167b1'
         return 'spock'
     }
 }
@@ -106,9 +104,9 @@ function aiDisplayLizard() {
     document.getElementById('ai-choice').style.color = '#227600'
 }
 
-function aiDisplayRock() {
-    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
-    document.getElementById('ai-choice').style.color = '#574e43'
+function aiDisplaySpock() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
+    document.getElementById('ai-choice').style.color = '#1167b1'
 }
 
 function rock(choice, difficulty) {
