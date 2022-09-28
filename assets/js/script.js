@@ -74,12 +74,8 @@ function aiChoice() {
     if (choice === 0) {
         return 'rock';
     } else if (choice === 1) {
-        document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
-        document.getElementById('ai-choice').style.color = '#ffa300'
         return 'paper';
     } else if (choice === 2) {
-        document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
-        document.getElementById('ai-choice').style.color = '#d80000'
         return 'scissors'
     } else if (choice === 3) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
@@ -102,9 +98,11 @@ function aiDisplayPaper() {
     document.getElementById('ai-choice').style.color = '#ffa300'
 }
 
-function aiDisplayRock() {
-    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
-    document.getElementById('ai-choice').style.color = '#574e43'
+
+
+function aiDisplayScissors() {
+    document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
+    document.getElementById('ai-choice').style.color = '#d80000'
 }
 
 function aiDisplayRock() {
