@@ -245,6 +245,16 @@ h1 {
 
 }
 
+@media screen and (max-width: 1160px) {
+    #player-choice {
+        font-size: 170px;
+    }
+
+    #ai-choice {
+        font-size: 170px;
+    }
+}
+
 @media screen and (max-width: 900px) {
 
     h1 {
