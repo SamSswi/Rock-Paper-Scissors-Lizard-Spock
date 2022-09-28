@@ -255,7 +255,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
     h1 {
         margin-bottom: 10px;
