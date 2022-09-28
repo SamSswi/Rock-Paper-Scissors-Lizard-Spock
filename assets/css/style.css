@@ -189,6 +189,8 @@ h1 {
     background-color: #fff;
     height: 700px;
     width: 100%;
+    text-align: center;
+    font-size: larger;
 }
 
 @media screen and (max-width: 1600px) {
