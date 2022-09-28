@@ -12,6 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById('player-choice').innerHTML = ''
                 document.getElementById('ai-choice').innerHTML = ''
                 
+            } else if(this.getAttribute('data-type') === 'rules') {
+                document.getElementById('rules-section').style.visibility = 'visible'
+                const closeButton = document.getElementsByClassName('close-button')
+                for (let a of closeButton) {
+                    a.addEventListener('click', function(){document.getElementById('rules-section').style.visibility = 'hidden'})
+                }
             } else if(this.getAttribute('data-type') === 'rock') {
                 const ai = aiChoice()
                 const result = rock(ai)
