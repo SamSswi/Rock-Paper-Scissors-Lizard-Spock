@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById('ai-points').innerHTML = 0
                 document.getElementById('player-choice').innerHTML = ''
                 document.getElementById('ai-choice').innerHTML = ''
-                document.getElementById('rules-section').style.visibility = 'hidden'
+                document.getElementById('start-page').style.visibility = 'hidden'
                 setPlayerName()
             } else if(this.getAttribute('data-type') === 'new-game') {
                 document.getElementById('player-points').innerHTML = 0
