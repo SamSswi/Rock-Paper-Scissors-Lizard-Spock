@@ -60,18 +60,23 @@ function aiChoice(){
     const choice = Math.floor(Math.random() * 5)
     if (choice === 0) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
+        document.getElementById('ai-choice').style.color = '#574e43'
         return 'rock';
     } else if (choice === 1) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
+        document.getElementById('ai-choice').style.color = '#ffa300'
         return 'paper';
     } else if (choice === 2) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
+        document.getElementById('ai-choice').style.color = '#d80000'
         return 'scissors'
     } else if (choice === 3) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
+        document.getElementById('ai-choice').style.color = '#227600'
         return 'lizard'
     } else if (choice === 4) {
         document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
+        document.getElementById('ai-choice').style.color = '#1167b1'
         return 'spock'
     }
 }
