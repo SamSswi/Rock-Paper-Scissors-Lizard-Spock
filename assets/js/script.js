@@ -106,13 +106,6 @@ function aiDisplaySpock() {
 function rock(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
     document.getElementById('player-choice').style.color = '#574e43'
-    //     if(aiChoice === 'rock') {
-    //         return 'draw'
-    //     } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
-    //         return 'win'
-    //     } else if (aiChoice === 'paper' || aiChoice === 'spock') {
-    //         return 'loss'
-    //     }
     let opponentMove = choice
 
         while (opponentMove === 'rock') {
