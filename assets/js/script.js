@@ -5,9 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         ////////////////////////////////////////////////////////////////    
         button.addEventListener('click', function () {
-            let difficulty = ''
-
-
             if (this.getAttribute('data-type') === 'start') {
                 document.getElementById('start-page').style.visibility = 'hidden'
                 newGame()
@@ -24,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             } else if (this.getAttribute('data-type') === 'rock') {
                 const ai = aiChoice()
-                const result = rock(ai,'easy')
+                const result = rock(ai)
                 scoreCalculation(result)
             } else if (this.getAttribute('data-type') === 'paper') {
                 const ai = aiChoice()
@@ -106,7 +103,7 @@ function aiDisplaySpock() {
     document.getElementById('ai-choice').style.color = '#1167b1'
 }
 
-function rock(choice, difficulty) {
+function rock(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>'
     document.getElementById('player-choice').style.color = '#574e43'
     //     if(aiChoice === 'rock') {
@@ -118,22 +115,23 @@ function rock(choice, difficulty) {
     //     }
     let opponentMove = choice
 
-    if (difficulty === 'easy') {
-        while (opponentMove === 'rock' || opponentMove === 'paper') {
+        while (opponentMove === 'rock') {
             opponentMove = aiChoice()
         }
-
         if (opponentMove === 'scissors') {
             aiDisplayScissors()
             return 'win'
         } else if (opponentMove === 'lizard') {
             aiDisplayLizard()
             return 'win'
+        } else if (opponentMove === 'paper') {
+            aiDisplayPaper()
+            return 'loss'
         } else if (opponentMove === 'spock') {
             aiDisplaySpock()
             return 'loss'
         }
-    }
+    
 }
 
 function paper(aiChoice) {
