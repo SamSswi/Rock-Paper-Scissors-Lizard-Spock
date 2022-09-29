@@ -227,11 +227,8 @@ function setPlayerName() {
 }
 
 function newGame() {
-    document.getElementById('difficulty-section').style.visibility = 'visible'
     document.getElementById('player-points').innerHTML = 0
     document.getElementById('ai-points').innerHTML = 0
     document.getElementById('player-choice').innerHTML = ''
     document.getElementById('ai-choice').innerHTML = ''
 }
-let a = aiChoice()
-rock(a, 'easy')
