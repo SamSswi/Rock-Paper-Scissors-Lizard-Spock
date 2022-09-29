@@ -153,6 +153,7 @@ function paper(choice) {
 function scissors(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
     document.getElementById('player-choice').style.color = '#d80000'
+    
     let opponentMove = choice
 
     while (opponentMove === 'scissors') {
@@ -173,26 +174,49 @@ function scissors(choice) {
     }
 }
 
-function lizard(aiChoice) {
+function lizard(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-lizard"></i>'
     document.getElementById('player-choice').style.color = '#227600'
-    if (aiChoice === 'lizard') {
-        return 'draw'
-    } else if (aiChoice === 'spock' || aiChoice === 'paper') {
+
+    let opponentMove = choice
+
+    while (opponentMove === 'lizard') {
+        opponentMove = aiChoice()
+    }
+    if (opponentMove === 'paper') {
+        aiDisplayPaper()
         return 'win'
-    } else if (aiChoice === 'rock' || aiChoice === 'scissors') {
+    } else if (opponentMove === 'spock') {
+        aiDisplaySpock()
+        return 'win'
+    } else if (opponentMove === 'rock') {
+        aiDisplayRock()
+        return 'loss'
+    } else if (opponentMove === 'scissors') {
+        aiDisplayScissors()
         return 'loss'
     }
 }
 
-function spock(aiChoice) {
+function spock(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-spock"></i>'
     document.getElementById('player-choice').style.color = '#1167b1'
-    if (aiChoice === 'spock') {
-        return 'draw'
-    } else if (aiChoice === 'scissors' || aiChoice === 'rock') {
+    let opponentMove = choice
+
+    while (opponentMove === 'spock') {
+        opponentMove = aiChoice()
+    }
+    if (opponentMove === 'rock') {
+        aiDisplayRock()
         return 'win'
-    } else if (aiChoice === 'paper' || aiChoice === 'lizard') {
+    } else if (opponentMove === 'scissors') {
+        aiDisplayScissors()
+        return 'win'
+    } else if (opponentMove === 'lizard') {
+        aiDisplayLizard()
+        return 'loss'
+    } else if (opponentMove === 'paper') {
+        aiDisplayPaper()
         return 'loss'
     }
 }
