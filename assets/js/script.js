@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     }
 })
- 
+
 function scoreCalculation(result) {
     if (result === 'win') {
         let playerScore = parseInt(document.getElementById('player-points').textContent)
@@ -108,23 +108,23 @@ function rock(choice) {
     document.getElementById('player-choice').style.color = '#574e43'
     let opponentMove = choice
 
-        while (opponentMove === 'rock') {
-            opponentMove = aiChoice()
-        }
-        if (opponentMove === 'scissors') {
-            aiDisplayScissors()
-            return 'win'
-        } else if (opponentMove === 'lizard') {
-            aiDisplayLizard()
-            return 'win'
-        } else if (opponentMove === 'paper') {
-            aiDisplayPaper()
-            return 'loss'
-        } else if (opponentMove === 'spock') {
-            aiDisplaySpock()
-            return 'loss'
-        }
-    
+    while (opponentMove === 'rock') {
+        opponentMove = aiChoice()
+    }
+    if (opponentMove === 'scissors') {
+        aiDisplayScissors()
+        return 'win'
+    } else if (opponentMove === 'lizard') {
+        aiDisplayLizard()
+        return 'win'
+    } else if (opponentMove === 'paper') {
+        aiDisplayPaper()
+        return 'loss'
+    } else if (opponentMove === 'spock') {
+        aiDisplaySpock()
+        return 'loss'
+    }
+
 }
 
 function paper(choice) {
@@ -132,32 +132,43 @@ function paper(choice) {
     document.getElementById('player-choice').style.color = '#ffa300'
     let opponentMove = choice
 
-        while (opponentMove === 'paper') {
-            opponentMove = aiChoice()
-        }
-        if (opponentMove === 'rock') {
-            aiDisplayRock()
-            return 'win'
-        } else if (opponentMove === 'spock') {
-            aiDisplaySpock()
-            return 'win'
-        } else if (opponentMove === 'lizard') {
-            aiDisplayLizard()
-            return 'loss'
-        } else if (opponentMove === 'scissors') {
-            aiDisplayScissors()
-            return 'loss'
-        }
+    while (opponentMove === 'paper') {
+        opponentMove = aiChoice()
+    }
+    if (opponentMove === 'rock') {
+        aiDisplayRock()
+        return 'win'
+    } else if (opponentMove === 'spock') {
+        aiDisplaySpock()
+        return 'win'
+    } else if (opponentMove === 'lizard') {
+        aiDisplayLizard()
+        return 'loss'
+    } else if (opponentMove === 'scissors') {
+        aiDisplayScissors()
+        return 'loss'
+    }
 }
 
-function scissors(aiChoice) {
+function scissors(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-scissors"></i>'
     document.getElementById('player-choice').style.color = '#d80000'
-    if (aiChoice === 'scissors') {
-        return 'draw'
-    } else if (aiChoice === 'lizard' || aiChoice === 'paper') {
+    let opponentMove = choice
+
+    while (opponentMove === 'scissors') {
+        opponentMove = aiChoice()
+    }
+    if (opponentMove === 'paper') {
+        aiDisplayPaper()
         return 'win'
-    } else if (aiChoice === 'rock' || aiChoice === 'spock') {
+    } else if (opponentMove === 'lizard') {
+        aiDisplayLizard()
+        return 'win'
+    } else if (opponentMove === 'rock') {
+        aiDisplayRock()
+        return 'loss'
+    } else if (opponentMove === 'spock') {
+        aiDisplaySpock()
         return 'loss'
     }
 }
