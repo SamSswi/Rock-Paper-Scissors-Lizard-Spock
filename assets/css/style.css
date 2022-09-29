@@ -22,10 +22,6 @@ h1 {
     visibility: visible;
 }
 
-#difficulty-section {
-    visibility: hidden;
-}
-
 #rules-section {
     visibility: hidden;
 }

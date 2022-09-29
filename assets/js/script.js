@@ -12,9 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 document.getElementById('start-page').style.visibility = 'hidden'
                 newGame()
                 setPlayerName()
-            } else if (this.getAttribute('data-type') === 'easy') {
-                document.getElementById('difficulty-section').style.visibility = 'hidden'
-                difficulty = 'easy'
             } else if (this.getAttribute('data-type') === 'new-game') {
                 newGame()
             } else if (this.getAttribute('data-type') === 'rules') {
@@ -27,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             } else if (this.getAttribute('data-type') === 'rock') {
                 const ai = aiChoice()
-                const result = rock(ai,difficulty)
+                const result = rock(ai,'easy')
                 scoreCalculation(result)
             } else if (this.getAttribute('data-type') === 'paper') {
                 const ai = aiChoice()
@@ -49,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     }
 })
-
+ 
 function scoreCalculation(result) {
     if (result === 'win') {
         let playerScore = parseInt(document.getElementById('player-points').textContent)
@@ -124,12 +121,16 @@ function rock(choice, difficulty) {
     if (difficulty === 'easy') {
         while (opponentMove === 'rock' || opponentMove === 'paper') {
             opponentMove = aiChoice()
-            console.log(opponentMove)
         }
 
-        if (aiChoice === 'scissors' || aiChoice === 'lizard') {
+        if (opponentMove === 'scissors') {
+            aiDisplayScissors()
             return 'win'
-        } else if (aiChoice === 'spock') {
+        } else if (opponentMove === 'lizard') {
+            aiDisplayLizard()
+            return 'win'
+        } else if (opponentMove === 'spock') {
+            aiDisplaySpock()
             return 'loss'
         }
     }
