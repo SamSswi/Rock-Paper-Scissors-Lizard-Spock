@@ -127,16 +127,27 @@ function rock(choice) {
     
 }
 
-function paper(aiChoice) {
+function paper(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand"></i>'
     document.getElementById('player-choice').style.color = '#ffa300'
-    if (aiChoice === 'paper') {
-        return 'draw'
-    } else if (aiChoice === 'rock' || aiChoice === 'spock') {
-        return 'win'
-    } else if (aiChoice === 'scissors' || aiChoice === 'lizard') {
-        return 'loss'
-    }
+    let opponentMove = choice
+
+        while (opponentMove === 'paper') {
+            opponentMove = aiChoice()
+        }
+        if (opponentMove === 'rock') {
+            aiDisplayRock()
+            return 'win'
+        } else if (opponentMove === 'spock') {
+            aiDisplaySpock()
+            return 'win'
+        } else if (opponentMove === 'lizard') {
+            aiDisplayLizard()
+            return 'loss'
+        } else if (opponentMove === 'scissors') {
+            aiDisplayScissors()
+            return 'loss'
+        }
 }
 
 function scissors(aiChoice) {
