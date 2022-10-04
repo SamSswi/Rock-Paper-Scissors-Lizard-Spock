@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////from CI love maths
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.getElementsByTagName('button');
-
+    selectNameInput()
     for (let button of buttons) {
         ////////////////////////////////////////////////////////////////    
         button.addEventListener('click', function () {
