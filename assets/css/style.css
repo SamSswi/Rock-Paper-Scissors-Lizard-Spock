@@ -33,11 +33,12 @@ h1 {
 
 #start-page > button {
     font-size: 50px;
-    padding: 1%;
+    padding: 1.5%;
     background-color: #138808;
     color: #fff;
     border-radius: 50%;
     border: none;
+    letter-spacing: 2px;
 }
 
 #rules-section {
