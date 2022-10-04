@@ -41,6 +41,12 @@ h1 {
     letter-spacing: 2px;
 }
 
+#start-page > button:hover {
+    background-color: #fff;
+    color: #138808;
+    border: 5px solid #138808;
+}
+
 #start-page-icons {
     font-size: 200px;
     margin-top: 10px;
