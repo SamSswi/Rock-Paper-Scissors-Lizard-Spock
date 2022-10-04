@@ -20,6 +20,16 @@ h1 {
 
 #start-page {
     visibility: visible;
+    font-size: 30px;
+}
+
+#submitted-name {
+    font-size: 30px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin:  10px 20px;
+    
 }
 
 #rules-section {
