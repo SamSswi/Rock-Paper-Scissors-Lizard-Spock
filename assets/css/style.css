@@ -45,6 +45,7 @@ h1 {
     background-color: #fff;
     color: #138808;
     border: 5px solid #138808;
+    cursor: pointer;
 }
 
 #start-page-icons {
@@ -80,6 +81,7 @@ h1 {
     clear: left;
     border: 2px #000 solid;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #rock-btn {
