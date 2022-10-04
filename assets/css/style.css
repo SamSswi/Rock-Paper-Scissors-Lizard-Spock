@@ -29,7 +29,15 @@ h1 {
     border-right: 0px;
     border-left: 0px;
     margin:  10px 20px;
-    
+}
+
+#start-page > button {
+    font-size: 50px;
+    padding: 1%;
+    background-color: #138808;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
 }
 
 #rules-section {
