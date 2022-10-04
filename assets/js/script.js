@@ -47,6 +47,15 @@ document.addEventListener("DOMContentLoaded", function () {
 function selectNameInput() {
     document.getElementById('submitted-name').focus()  //Methods found on https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/select
     document.getElementById('submitted-name').select()
+
+    //section from CI love maths project
+    document.getElementById('submitted-name').addEventListener('keydown', function(event){
+        if (event.key === "Enter" || event.key === "NumEnter") {
+            document.getElementById('start-page').style.visibility = 'hidden';
+            newGame();
+            setPlayerName();;
+        }
+    })
 }
 
 function scoreCalculation(result) {
