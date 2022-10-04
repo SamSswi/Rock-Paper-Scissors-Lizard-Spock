@@ -44,6 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+function selectNameInput() {
+    document.getElementById('submitted-name').focus()  //Methods found on https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/select
+    document.getElementById('submitted-name').select()
+}
+
 function scoreCalculation(result) {
     if (result === 'win') {
         let playerScore = parseInt(document.getElementById('player-points').textContent);
