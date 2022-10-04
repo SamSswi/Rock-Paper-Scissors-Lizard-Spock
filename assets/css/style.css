@@ -296,6 +296,11 @@ h1 {
 }
 
 @media screen and (max-width: 1160px) {
+
+    #start-page-icons {
+        font-size: 150px;
+    }
+
     #player-choice {
         font-size: 170px;
     }
@@ -309,6 +314,25 @@ h1 {
 
     h1 {
         margin-bottom: 10px;
+    }
+
+    #start-page {
+        font-size: 25px;
+    }
+    
+    #submitted-name {
+        font-size: 25px;
+        margin:  10px 5px;
+    }
+    
+    #start-page > button {
+        font-size: 30px;
+        padding: 2%;
+        letter-spacing: 1px;
+    }
+    
+    #start-page-icons {
+        font-size: 120px;
     }
 
     .game-area {
@@ -334,6 +358,25 @@ h1 {
     h1 {
         font-size: 25px;
         letter-spacing: 1px;
+    }
+    
+    #start-page {
+        font-size: 20px;
+    }
+    
+    #submitted-name {
+        font-size: 20px;
+        margin:  10px 5px;
+        width: 40%;
+    }
+    
+    #start-page > button {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    
+    #start-page-icons {
+        font-size: 60px;
     }
 
     .buttons {
@@ -387,6 +430,23 @@ h1 {
 
     h1 {
         font-size: 20px;
+    }
+
+    #start-page {
+        font-size: 15px;
+    }
+
+    #start-page > h2 {
+        font-size: 20px;
+    }
+    
+    #start-page > button {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    
+    #start-page-icons {
+        font-size: 40px;
     }
 
     .buttons {
