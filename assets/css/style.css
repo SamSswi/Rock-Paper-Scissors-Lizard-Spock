@@ -41,6 +41,11 @@ h1 {
     letter-spacing: 2px;
 }
 
+#start-page-icons {
+    font-size: 200px;
+    margin-top: 10px;
+}
+
 #rules-section {
     visibility: hidden;
 }
