@@ -12,3 +12,12 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ### Existing Features
 
+- ### Header
+    - The header is located on top of the page. The font used is spurless and jovial in order to create the atmosphere of a friendly game. The icons used are meant to offer a more immersive experience for the player. 
+    - The main purpose of the header is to inform the player what is the game they are playing.
+
+![Website header](../Rock-Paper-Scissors-Lizard-Spock/assets/images/RPSLSheader.jpg)
+
+<!-- - ### Game buttons 
+    -  -->
+
