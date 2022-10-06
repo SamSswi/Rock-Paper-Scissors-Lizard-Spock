@@ -1,0 +1,7 @@
+# ROCK PAPER SCISSORS LIZARD SPOCK
+
+Play rock paper scissors lizard spock with truly random opponent instead of a predictable friend to break a tie, resolve a dilemma, or kill time before an important event.
+
+Adding new gestures has the effect of reducing the odds of a tie, while increasing the complexity of the game. The probability of a tie in an odd-number-of-weapons game can be calculated based on the number of weapons n as 1/n, so the probability of a tie is 1/3 in standard rock paper scissors, but 1/5 in a version that offered five moves instead of three.
+
+This is a popular five-weapon expansion of the classical "Rock Paper Scissors", invented by Sam Kass and Karen Bryla, which adds "Spock" and "lizard" to the standard three choices. "Spock" is signified with the [Star Trek] [Vulcan salute], while "lizard" is shown by forming the hand into a sock-puppet-like mouth. Spock smashes scissors and vaporizes rock; he is poisoned by lizard and disproved by paper. Lizard poisons Spock and eats paper; it is crushed by rock and decapitated by scissors. This variant was mentioned in a 2005 article in The Times of London and was later the subject of an episode of the American sitcom The [Big Bang Theory] in 2008 (as rock-paper-scissors-lizard-Spock)
