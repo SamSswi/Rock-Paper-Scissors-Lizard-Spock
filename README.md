@@ -18,6 +18,11 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ![Website header](../Rock-Paper-Scissors-Lizard-Spock/assets/images/RPSLSheader.jpg)
 
-<!-- - ### Game buttons 
-    -  -->
+- ### Player Choice Buttons 
+    - A series of buttons presenting the player with a choice of options from which the player can play ROCK, PAPER, SCISSORS, LIZARD or SPOCK.
+    - The buttons are colored in unique colors so the player can easily distinguish between the choices presented to them. The colors are also relevant to the symbol they represent. ROCK - warm gray, PAPER - orange, SCISSORS - red, LIZARD - green, SPOCK - blue.
+    - This section presnets interactive buttons which allow the player to make a choice and play the game.
+
+![Player Choice Buttons](../Rock-Paper-Scissors-Lizard-Spock/assets/images/playbuttonsRPSLS.jpg)
+
 
