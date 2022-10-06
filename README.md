@@ -10,3 +10,5 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ## Features
 
+### Existing Features
+
