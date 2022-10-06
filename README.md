@@ -32,5 +32,15 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ![Auxiliary Buttons](../Rock-Paper-Scissors-Lizard-Spock/assets/images/auxiliaryButtonsRPSLS.jpg)
 
+- ### Result Area
+    - Two rectangular areas where the icons of the relevant icons of the choices both the player and the AI have made, are displayed.
+    - Presents the player with the opportunity to view the gesture they chose by displaying the icon present on the button the player clicked in the section bordered by a blue frame.
+    - The area with a red frame displays the icon that represents a random choice made by the AI. 
+
+![Result Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/reusltAreaRPSLS.jpg)
+
+
+
+
 
 
