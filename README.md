@@ -25,4 +25,12 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ![Player Choice Buttons](../Rock-Paper-Scissors-Lizard-Spock/assets/images/playbuttonsRPSLS.jpg)
 
+- ### Auxiliary Buttons 
+    - A series of interactive buttons meant to help the player. 
+    - The "New Game" button has the purpose to offer the player the opportunity to start the new game without reloading the page and typing in the username.
+    - The "Game Rules" button allows the players to become familiar with the game rules at any moment during the game.
+
+![Auxiliary Buttons](../Rock-Paper-Scissors-Lizard-Spock/assets/images/auxiliaryButtonsRPSLS.jpg)
+
+
 
