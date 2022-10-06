@@ -40,6 +40,13 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 ![Result Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/reusltAreaRPSLS.jpg)
 
 
+- ### Score Area 
+    - An area where the player can keep track of the score throughout the game.
+    - Displays the player name and the AI acronym for the opponent name. 
+    - In the center of the area, the score is displayed and it is updated every time the player decides to play a choice or restart the game.
+
+![Result Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/scoreAreaRPSLS.jpg)
+
 
 
 
