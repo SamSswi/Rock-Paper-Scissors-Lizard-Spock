@@ -6,4 +6,4 @@ This is a popular expansion of the classical "Rock Paper Scissors". It adds "Liz
 
 This game can be played by adults and children alike. The users of "ROCK PAPER SCISSORS LIZARD SPOCK" can learn the rules, practice the game and enjoy playing it. 
 
-![](../Rock-Paper-Scissors-Lizard-Spock/assets/images/RPSLSresponsive.jpg)
+![Preview of website on different screens](../Rock-Paper-Scissors-Lizard-Spock/assets/images/RPSLSresponsive.jpg)
