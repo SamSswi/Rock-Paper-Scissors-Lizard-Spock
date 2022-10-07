@@ -18,6 +18,13 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ![Website header](../Rock-Paper-Scissors-Lizard-Spock/assets/images/RPSLSheader.jpg)
 
+- ### Game Start Section
+    - This section is only displayed to the user when the page is loaded and it presents the opportunity of introducing a name the user wants to use during the game.
+    - The default username is "Player" but it can be easily changed directly from the keyboard as the text in the input field is selected from the start, and the cursor is focused on the input field as well.
+    - The "Start" button is interactive and starts the game. The same effect can be achieved by pressing "Enter" or "NumEnter" while the cursor is still in the input field.  
+
+![Website header](../Rock-Paper-Scissors-Lizard-Spock/assets/images/startPageRPSLS.jpg)
+
 - ### Player Choice Buttons 
     - A series of buttons presenting the player with a choice of options from which the player can play ROCK, PAPER, SCISSORS, LIZARD or SPOCK.
     - The buttons are colored in unique colors so the player can easily distinguish between the choices presented to them. The colors are also relevant to the symbol they represent. ROCK - warm gray, PAPER - orange, SCISSORS - red, LIZARD - green, SPOCK - blue.
