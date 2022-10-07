@@ -23,7 +23,7 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
     - The default username is "Player" but it can be easily changed directly from the keyboard as the text in the input field is selected from the start, and the cursor is focused on the input field as well.
     - The "Start" button is interactive and starts the game. The same effect can be achieved by pressing "Enter" or "NumEnter" while the cursor is still in the input field.  
 
-![Website header](../Rock-Paper-Scissors-Lizard-Spock/assets/images/startPageRPSLS.jpg)
+![Game Start Section](../Rock-Paper-Scissors-Lizard-Spock/assets/images/startPageRPSLS.jpg)
 
 - ### Player Choice Buttons 
     - A series of buttons presenting the player with a choice of options from which the player can play ROCK, PAPER, SCISSORS, LIZARD or SPOCK.
@@ -52,13 +52,13 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
     - Displays the player name and the AI acronym for the opponent name. 
     - In the center of the area, the score is displayed and it is updated every time the player decides to play a choice or restart the game.
 
-![Result Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/scoreAreaRPSLS.jpg)
+![Score Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/scoreAreaRPSLS.jpg)
 
 - ### Game Rules Section
     - This section is visible only after clicking on the "Game Rules" button and can be closed by pressing on one of the "Close Rules" buttons. Here the player can get familiarized with the rules of the game. 
     - The Game Rules section is not completely opaque in order to offer the player a sense of security that the game has not been altered after consulting the rules.
 
-![Result Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/gameRulesRPSLS.jpg)
+![Game Rules Section](../Rock-Paper-Scissors-Lizard-Spock/assets/images/gameRulesRPSLS.jpg)
 
 
 
