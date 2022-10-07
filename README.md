@@ -61,6 +61,10 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 ![Game Rules Section](../Rock-Paper-Scissors-Lizard-Spock/assets/images/gameRulesRPSLS.jpg)
 
 
+### Features Left To Implement
+
+- In the future I would like to expand the game to include multiple levels of difficulty and a limited number of turns or an option for the player to finish the game.
+
 
 
 
