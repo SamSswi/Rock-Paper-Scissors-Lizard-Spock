@@ -54,6 +54,13 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ![Result Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/scoreAreaRPSLS.jpg)
 
+- ### Game Rules Section
+    - This section is visible only after clicking on the "Game Rules" button and can be closed by pressing on one of the "Close Rules" buttons. Here the player can get familiarized with the rules of the game. 
+    - The Game Rules section is not completely opaque in order to offer the player a sense of security that the game has not been altered after consulting the rules.
+
+![Result Area](../Rock-Paper-Scissors-Lizard-Spock/assets/images/gameRulesRPSLS.jpg)
+
+
 
 
 
