@@ -80,6 +80,12 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ### Validator testing
 
+- ### HTML
+    - No errors were returned when passing the code through W3C HTML Validator.
+- ### CSS 
+    - No errors were returned when passing the code through W3C CSS Validator (Jigsaw).
+- ### JavaScript
+    - No errors were returned when passing the code through JSHint JavaScript Validator.
 
 
 
