@@ -72,6 +72,11 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 - I confirmed the website content is readable and easy to understand.
 - I confirmed the fonts and colors chosen are easy to read and accessible by running the app through "Lighthouse" in devtools.
 
+![Lighthouse report](../Rock-Paper-Scissors-Lizard-Spock/assets/images/lighthouseRPSLS.jpg)
+
+- I confirmed this project is responsive and functions on all standard screen sizes using devtools device toolbar.
+
+
 
 
 
