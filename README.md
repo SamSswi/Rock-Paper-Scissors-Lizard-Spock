@@ -65,6 +65,12 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 - In the future I would like to expand the game to include multiple levels of difficulty and a limited number of turns or an option for the player to finish the game.
 
+## Testing
+
+- I tested playing this game in different browsers: Edge, Chrome, Safari, Firefox, Opera.
+- I confirmed the game results are always the right ones.
+- I confirmed the website content is readable and easy to understand.
+- I confirmed the fonts and colors chosen are easy to read and accessible by running the app through "Lighthouse" in devtools.
 
 
 
