@@ -76,6 +76,10 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 - I confirmed this project is responsive and functions on all standard screen sizes using devtools device toolbar.
 
+### Bugs
+
+### Validator testing
+
 
 
 
