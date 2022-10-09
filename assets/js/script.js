@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 newGame();
                 setPlayerName();
             } else if (this.getAttribute('data-type') === 'new-game') {
-                newGame();
+                document.getElementById('start-page').style.visibility = 'visible';
+                selectNameInput();
             } else if (this.getAttribute('data-type') === 'rules') {
                 document.getElementById('rules-section').style.visibility = 'visible';
                 const closeButton = document.getElementsByClassName('close-button');
@@ -50,7 +51,7 @@ function selectNameInput() {
     document.getElementById('submitted-name').select();
 
     //The 'keydown' event listener syntax and the if condition are taken from Code Institute Love Maths project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/02-adding-some-javascript/02-creating-event-listeners/assets/js/script.js)
-    document.getElementById('submitted-name').addEventListener('keydown', function(event){
+    document.getElementById('submitted-name').addEventListener('keydown', function (event) {
         if (event.key === "Enter" || event.key === "NumEnter") {
             document.getElementById('start-page').style.visibility = 'hidden';
             newGame();
@@ -66,14 +67,14 @@ function scoreCalculation(result) {
         document.getElementById('player-points').innerHTML = playerScore;
     } else if (result === 'loss') {
         let aiScore = parseInt(document.getElementById('ai-points').textContent);
-            ++aiScore;
+        ++aiScore;
         document.getElementById('ai-points').innerHTML = aiScore;
     } else if (result === 'draw') {
         let playerScore = parseInt(document.getElementById('player-points').textContent);
-            ++playerScore;
+        ++playerScore;
         document.getElementById('player-points').innerHTML = playerScore;
         let aiScore = parseInt(document.getElementById('ai-points').textContent);
-            ++aiScore;
+        ++aiScore;
         document.getElementById('ai-points').innerHTML = aiScore;
     }
 }
