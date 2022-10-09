@@ -1,9 +1,9 @@
-// The code in the lines 2, 3 and 5 is taken from Code Institute Love Maths Project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/02-adding-some-javascript/02-creating-event-listeners/assets/js/script.js)  
+// The code in the lines 2, 3 and 5 is taken from Code Institute Love Maths Project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js)  
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.getElementsByTagName('button');
     selectNameInput();
     for (let button of buttons) {
-        //    End of the code taken from Code Institute Love Maths Project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/02-adding-some-javascript/02-creating-event-listeners/assets/js/script.js)
+        //    End of the code taken from Code Institute Love Maths Project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js)
         button.addEventListener('click', function () {
             if (this.getAttribute('data-type') === 'start') {
                 document.getElementById('start-page').style.visibility = 'hidden';
@@ -50,7 +50,7 @@ function selectNameInput() {
     document.getElementById('submitted-name').focus();
     document.getElementById('submitted-name').select();
 
-    //The 'keydown' event listener syntax and the if condition are taken from Code Institute Love Maths project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/02-adding-some-javascript/02-creating-event-listeners/assets/js/script.js)
+    //The 'keydown' event listener syntax and the if condition are taken from Code Institute Love Maths project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js)
     document.getElementById('submitted-name').addEventListener('keydown', function (event) {
         if (event.key === "Enter" || event.key === "NumEnter") {
             document.getElementById('start-page').style.visibility = 'hidden';
