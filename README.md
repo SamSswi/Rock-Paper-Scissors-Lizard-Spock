@@ -78,7 +78,11 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ### Bugs
 
-- None
+- If the user introduced an empty string in the Player Name input field, on the scoreboard, there was empty space in place of the player name.
+
+![Player Name Bug](./assets/images/bugGame.jpg)
+
+- In the JavaScript file, I added the operation of checking whether the Player Name is an empty string and if true, then the player would be automatically assigned the name "Anonymous". 
 
 ### Validator testing
 
