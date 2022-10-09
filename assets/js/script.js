@@ -239,7 +239,9 @@ function spock(choice) {
 
 function setPlayerName() {
     const playerName = document.getElementById('submitted-name').value;
-    document.getElementById('player-name').innerHTML = `<h2>${playerName}</h2>`;
+    const gameName = document.getElementById('player-name')
+
+    String(playerName) === '' ? gameName.innerHTML = '<h2>Anonymous</h2>' : gameName.innerHTML = `<h2>${playerName}</h2>`;
 }
 
 function newGame() {
