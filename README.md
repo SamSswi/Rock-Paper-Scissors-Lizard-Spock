@@ -99,6 +99,8 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 The live link to the website - [Rock Paper Scissors Lizard Spock]
 
+## Credits
 
+### Content
 
 
