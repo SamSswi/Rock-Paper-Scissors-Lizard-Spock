@@ -228,6 +228,7 @@ h1 {
     margin: 10px 0px;
 }
 
+/* Media Queries  */
 @media screen and (max-width: 1600px) {
     .game-area {
         margin: 20px 2.5% 0px;
