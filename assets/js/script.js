@@ -74,13 +74,6 @@ function scoreCalculation(result) {
         let aiScore = parseInt(document.getElementById('ai-points').textContent);
         ++aiScore;
         document.getElementById('ai-points').innerHTML = aiScore;
-    } else if (result === 'draw') {
-        let playerScore = parseInt(document.getElementById('player-points').textContent);
-        ++playerScore;
-        document.getElementById('player-points').innerHTML = playerScore;
-        let aiScore = parseInt(document.getElementById('ai-points').textContent);
-        ++aiScore;
-        document.getElementById('ai-points').innerHTML = aiScore;
     }
 }
 
