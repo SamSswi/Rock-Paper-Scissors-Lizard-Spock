@@ -60,11 +60,9 @@ h1 {
 .game-area {
     margin: 20px 12.5% 0px;
     padding: 20px 20px 0px;
-    /* background-color: #cec7bf; */
 }
 
 .buttons {
-    /* background-color: yellowgreen; */
     width: 19%;
     height: 420px;
     display: inline-block;
@@ -72,11 +70,9 @@ h1 {
 
 .buttons>button {
     font-size: 30px;
-    /* font-weight: bold; */
     margin: 3px 5%;
     padding: 20px 10px;
     width: 90%;
-    /* background-color: blueviolet; */
     float: left;
     clear: left;
     border: 2px #000 solid;
@@ -151,7 +147,6 @@ h1 {
 }
 
 .choices {
-    /* background-color: brown; */
     vertical-align: top;
     display: inline-block;
     width: 29%;
@@ -161,7 +156,6 @@ h1 {
 }
 
 #player-choice {
-    /* background-color: #ffe5b4; */
     border-color: #374f6b;
     font-size: 300px;
     text-align: center;
@@ -174,7 +168,6 @@ h1 {
 }
 
 #score-area {
-    /* background-color: yellow; */
     width: 43.5%;
     margin: 0px 27.45%;
     border: 8px solid #ff9154;
@@ -200,7 +193,6 @@ h1 {
 }
 
 #player-score {
-    /* background-color: #a4a7aa; */
     width: 10%;
 }
 
@@ -211,7 +203,6 @@ h1 {
 }
 
 #ai-score {
-    /* background-color: #7c135d; */
     width: 10%;
 }
 
@@ -222,7 +213,6 @@ h1 {
 }
 
 #ai {
-    /* background-color: #1db83f; */
     width: 39.25%;
 }
 
