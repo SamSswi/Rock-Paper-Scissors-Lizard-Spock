@@ -94,6 +94,7 @@ function aiChoice() {
     }
 }
 
+// Display the computer choice 
 function aiDisplayRock() {
     document.getElementById('ai-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>';
     document.getElementById('ai-choice').style.color = '#574e43';
