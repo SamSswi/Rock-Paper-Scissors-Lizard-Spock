@@ -11,15 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Ubuntu:wght@300&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/66f85bb503.js" crossorigin="anonymous"></script>
+
+    <!-- Link to the CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
 
 <body>
+    <!-- Website header -->
     <h1 class="heading"><i class="fa-solid fa-hand-back-fist"></i>ROCK <i class="fa-solid fa-hand"></i>PAPER <i
             class="fa-solid fa-hand-scissors"></i>
         SCISSORS <i class="fa-solid fa-hand-lizard"></i>LIZARD <i class="fa-solid fa-hand-spock"></i>SPOCK</h1>
+
+    <!-- Start section -->
     <div id='start-page' class="absolute-divs">
         <h2>The familiar ROCK PAPER SCISSORS but better!</h2>
         <p>Please type in the name you want to use during this game</p>
@@ -31,8 +36,10 @@
             <i class="fa-solid fa-hand-scissors" style="color: #d80000"></i> <i class="fa-solid fa-hand-lizard"
                 style="color: #227600"></i> <i class="fa-solid fa-hand-spock" style="color: #1167b1"></i></p>
     </div>
+
+    <!-- Game rules -->  
     <div id="rules-section" class="absolute-divs">
-        <!-- https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/ -->
+        <!-- The rules of the game in this section are extracted from: https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/ -->
         <button class="close-button"><i class="fa-solid fa-circle-xmark" style="color: red"> Close Rules</i></button>
         <h2><i class="fa-solid fa-lightbulb" style="color: yellow"></i> Game Rules</h2>
         <p><i class="fa-solid fa-hand-back-fist" style="color: #574e43"></i> Rock crushes <i
@@ -57,6 +64,8 @@
                 class="fa-solid fa-hand-back-fist" style="color: #574e43"></i> Rock</p>
         <button class="close-button"><i class="fa-solid fa-circle-xmark" style="color: red"> Close Rules</i></button>
     </div>
+
+    <!-- Game area -->
     <div class="game-area">
         <div class="buttons" id="game-buttons">
             <button id="rock-btn" data-type="rock"><i class="fa-solid fa-hand-back-fist"></i> Rock</button>
@@ -72,6 +81,8 @@
             <button data-type="rules">Game Rules</button>
         </div>
     </div>
+
+    <!-- Score Area -->
     <div id="score-area">
         <div id="player-name">
             <h2>Player</h2>
@@ -87,7 +98,7 @@
         </div>
     </div>
 
-
+    <!-- Link to the JavaScript file -->
     <script src="assets/js/script.js"></script>
 </body>
 
