@@ -78,6 +78,7 @@ function scoreCalculation(result) {
     }
 }
 
+// Return a random string relevant to the game choices 
 function aiChoice() {
     const choice = Math.floor(Math.random() * 5);
     if (choice === 0) {
