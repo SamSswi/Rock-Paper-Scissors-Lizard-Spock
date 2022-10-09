@@ -89,6 +89,16 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 - ### JavaScript
     - No errors were returned when passing the code through JSHint JavaScript Validator.
 
+## Deployment
+
+- The site was deployed on GitHub. The steps to deploy are the following:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the vertical side bar menu, select Pages
+    - from the source selection drop-down menu, select "main"
+    - after the "main" branch has been selected, the link to the website will be provided.
+
+The live link to the website - [Rock Paper Scissors Lizard Spock]
+
 
 
 
