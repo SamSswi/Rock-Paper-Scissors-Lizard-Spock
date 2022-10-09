@@ -48,6 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+// Selects the text in the input and moves the cursor to the start of the input field
+// Hides the visibility of the start section when Enter or Start button is pressed
 function selectNameInput() {
     //The focus() and select() methods are taken from (https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/select)
     document.getElementById('submitted-name').focus();
