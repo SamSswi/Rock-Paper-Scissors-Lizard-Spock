@@ -239,6 +239,7 @@ function spock(choice) {
     }
 }
 
+// Set the player name on the scoreboard
 function setPlayerName() {
     const playerName = document.getElementById('submitted-name').value;
     const gameName = document.getElementById('player-name');
