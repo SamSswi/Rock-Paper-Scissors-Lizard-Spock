@@ -248,6 +248,7 @@ function setPlayerName() {
     else  gameName.innerHTML =`<h2>${playerName}</h2>`;
 }
 
+// Reset the score and displayed icons 
 function newGame() {
     document.getElementById('player-points').innerHTML = 0;
     document.getElementById('ai-points').innerHTML = 0;
