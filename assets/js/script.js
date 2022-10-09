@@ -1,4 +1,7 @@
-// The code in the lines 2, 3 and 5 is taken from Code Institute Love Maths Project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js)  
+// Wait for the DOM Content to load before executing the functions
+// Add event listeners and functions to the buttons
+
+// The code in the lines 5, 6 and 8 is taken from Code Institute Love Maths Project (https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js)  
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.getElementsByTagName('button');
     selectNameInput();
