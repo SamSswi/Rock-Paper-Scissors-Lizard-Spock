@@ -78,6 +78,8 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 
 ### Bugs
 
+- None
+
 ### Validator testing
 
 - ### HTML
