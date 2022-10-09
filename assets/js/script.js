@@ -65,6 +65,7 @@ function selectNameInput() {
     });
 }
 
+// Calculate the score in case of player win or loss
 function scoreCalculation(result) {
     if (result === 'win') {
         let playerScore = parseInt(document.getElementById('player-points').textContent);
