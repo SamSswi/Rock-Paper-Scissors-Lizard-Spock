@@ -19,7 +19,7 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 ![Website header](../Rock-Paper-Scissors-Lizard-Spock/assets/images/RPSLSheader.jpg)
 
 - ### Game Start Section
-    - This section is only displayed to the user when the page is loaded and it presents the opportunity of introducing a name the user wants to use during the game.
+    - This section is only displayed to the user when a new game starts and it presents the opportunity of introducing a name the user wants to use during the game.
     - The default username is "Player" but it can be easily changed directly from the keyboard as the text in the input field is selected from the start, and the cursor is focused on the input field as well.
     - The "Start" button is interactive and starts the game. The same effect can be achieved by pressing "Enter" or "NumEnter" while the cursor is still in the input field.  
 
@@ -28,19 +28,19 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
 - ### Player Choice Buttons 
     - A series of buttons presenting the player with a choice of options from which the player can play ROCK, PAPER, SCISSORS, LIZARD or SPOCK.
     - The buttons are colored in unique colors so the player can easily distinguish between the choices presented to them. The colors are also relevant to the symbol they represent. ROCK - warm gray, PAPER - orange, SCISSORS - red, LIZARD - green, SPOCK - blue.
-    - This section presnets interactive buttons which allow the player to make a choice and play the game.
+    - This section presents interactive buttons which allow the player to make a choice and play the game.
 
 ![Player Choice Buttons](../Rock-Paper-Scissors-Lizard-Spock/assets/images/playbuttonsRPSLS.jpg)
 
 - ### Auxiliary Buttons 
     - A series of interactive buttons meant to help the player. 
-    - The "New Game" button has the purpose to offer the player the opportunity to start the new game without reloading the page and typing in the username.
+    - The "New Game" button has the purpose to offer the player the opportunity to start the new game without reloading the page.
     - The "Game Rules" button allows the players to become familiar with the game rules at any moment during the game.
 
 ![Auxiliary Buttons](../Rock-Paper-Scissors-Lizard-Spock/assets/images/auxiliaryButtonsRPSLS.jpg)
 
 - ### Result Area
-    - Two rectangular areas where the icons of the relevant icons of the choices both the player and the AI have made, are displayed.
+    - Two rectangular areas where the relevant icons of the choices both the player and the AI have made, are displayed.
     - Presents the player with the opportunity to view the gesture they chose by displaying the icon present on the button the player clicked in the section bordered by a blue frame.
     - The area with a red frame displays the icon that represents a random choice made by the AI. 
 
@@ -97,7 +97,7 @@ This game can be played by adults and children alike. The users of "ROCK PAPER S
     - from the source selection drop-down menu, select "main"
     - after the "main" branch has been selected, the link to the website will be provided.
 
-The live link to the website - [Rock Paper Scissors Lizard Spock]
+The live link to the website - [Rock Paper Scissors Lizard Spock](https://samsswi.github.io/Rock-Paper-Scissors-Lizard-Spock/)
 
 ## Credits
 
