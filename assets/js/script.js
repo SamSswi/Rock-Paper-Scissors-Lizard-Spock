@@ -120,6 +120,7 @@ function aiDisplaySpock() {
     document.getElementById('ai-choice').style.color = '#1167b1';
 }
 
+// Display the player choice and return a win/loss result depending on computer's choice
 function rock(choice) {
     document.getElementById('player-choice').innerHTML = '<i class="fa-solid fa-hand-back-fist"></i>';
     document.getElementById('player-choice').style.color = '#574e43';
