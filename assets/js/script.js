@@ -1,4 +1,4 @@
-////////////////////////////////////////////////from CI love maths
+// from CI love maths
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.getElementsByTagName('button');
     selectNameInput();

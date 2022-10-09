@@ -18,6 +18,8 @@ h1 {
     font-size: larger;
 }
 
+
+/* Start section  */
 #start-page {
     visibility: visible;
     font-size: 30px;
@@ -53,10 +55,12 @@ h1 {
     margin-top: 10px;
 }
 
+/* Game Rules */
 #rules-section {
     visibility: hidden;
 }
 
+/* Game area  */
 .game-area {
     margin: 20px 12.5% 0px;
     padding: 20px 20px 0px;
@@ -167,6 +171,7 @@ h1 {
     text-align: center;
 }
 
+/* Score area  */
 #score-area {
     width: 43.5%;
     margin: 0px 27.45%;
