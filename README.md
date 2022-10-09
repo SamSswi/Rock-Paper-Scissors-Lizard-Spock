@@ -103,4 +103,9 @@ The live link to the website - [Rock Paper Scissors Lizard Spock]
 
 ### Content
 
+- The rules of the game are extracted from: [Instructables](https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/).
+- The code for the DomContentLoaded event and the for...of loop condition, are taken from [Code Institute Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js) project.
+- The focus() and select() methods in the selectNameInput() function are taken from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/select).
+- The 'keydown' event listener syntax and the if condition are taken from [Code Institute Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/05-tidying-up/01-a-few-last-things/assets/js/script.js) project.
+
 
